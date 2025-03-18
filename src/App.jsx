@@ -1,9 +1,13 @@
 //profiles/src/App.jsx
-import './App.css'
+import './App.css';
+import Semantica from '../src/pages/semantica.jsx';
 
 function App() {
   return (
-    <h1>você está no arquivo App.jsx</h1>
+    <div>
+      <h1>você está no arquivo App.jsx</h1>
+      <Semantica />
+    </div>
   )
 }
 
