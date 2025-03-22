@@ -4,9 +4,10 @@ import Semantica from '../src/pages/semantica.jsx';
 
 function App() {
   return (
-    <div>
-      <h1>você está no arquivo App.jsx</h1>
-      <Semantica />
+    <div className='img-fundo'>
+      <div className="container-perfil">
+        <Semantica/>
+      </div>
     </div>
   )
 }
