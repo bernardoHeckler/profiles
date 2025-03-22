@@ -1,0 +1,18 @@
+button{
+    background-color: #77b8f5;
+    border: none;
+    padding: 16px;
+    text-transform: uppercase;
+    
+}
+a {
+    color: #05227e;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    font-size: smaller;
+}
