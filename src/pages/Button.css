@@ -3,7 +3,7 @@ button{
     border: none;
     padding: 16px;
     text-transform: uppercase;
-    
+    cursor: pointer;
 }
 a {
     color: #05227e;
@@ -12,7 +12,13 @@ a {
 section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 16px;
-    padding: 16px;
+    padding: 0 16px;
     font-size: smaller;
+    height: 100%;
+}
+
+.container-btns{
+    height: 217px;
 }

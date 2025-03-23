@@ -4,6 +4,8 @@
     color: #fff;
     list-style: none;
     border-radius: 16px;
+    width: 390px;
+    height: 515px;
   }
 
 a{
@@ -19,24 +21,5 @@ a{
     gap: 8px;
 }
 .container > img{
-    border-radius: 500px;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-nav > figure{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 8px 0;
-}
-
-figure > img{
     border-radius: 500px;
 }

@@ -2,7 +2,7 @@ import './Button.css'
 
 const Button = () => {
     return (
-        <div>
+        <div className='container-btns'>
             <section>
                 <button type="button">
                     <a href="../assets/BERNARDO ANTUNES HECKLER CURRICULO .pdf" target="_blank" rel="noopener noreferrer">Currículo</a>
