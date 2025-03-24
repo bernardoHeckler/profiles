@@ -6,7 +6,8 @@ button{
     cursor: pointer;
 }
 a {
-    color: #05227e;
+    color: #ffffff;
+    font-size: 18px;
 }
 
 section{
@@ -21,4 +22,14 @@ section{
 
 .container-btns{
     height: 217px;
+}
+
+.color-btn1{
+    background-color: #1951d4;
+}
+.color-btn2{
+    background-color: #2ea9e2;
+}
+.color-btn3{
+    background-color: #4926a3;
 }
