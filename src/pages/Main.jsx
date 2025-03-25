@@ -10,8 +10,8 @@ const Main = () => {
     // Estado inicial com "sobre" selecionado e cor de fundo aplicada
     const [mostrarComponente, setMostrarComponente] = useState("sobre");
     const [botaoEsquerdoCor, setBotaoEsquerdoCor] = useState("");
-    const [botaoDireitoCor, setBotaoDireitoCor] = useState("#1f1f1f"); 
-    const [componenteCor, setComponenteCor] = useState("#1f1f1f"); 
+    const [botaoDireitoCor, setBotaoDireitoCor] = useState("#1f1f1f");
+    const [componenteCor, setComponenteCor] = useState("#1f1f1f");
 
     const handleBotaoEsquerdoClick = () => {
         setMostrarComponente('button');
@@ -29,19 +29,19 @@ const Main = () => {
 
     return (
         <div style={{ height: '264px' }}>
-            <button 
-                className='btn-opcao' 
+            <button
+                className='btn-opcao'
                 onClick={handleBotaoEsquerdoClick}
                 style={{ backgroundColor: botaoEsquerdoCor }}
             >
                 <img src={imgRedes} alt="envelope" />
             </button>
-            <button 
-                className='btn-opcao' 
+            <button
+                className='btn-opcao'
                 onClick={handleBotaoDireitoClick}
                 style={{ backgroundColor: botaoDireitoCor }}
             >
-               <img src={imgTerminal} alt="terminal" />
+                <img src={imgTerminal} alt="terminal" />
             </button>
             <div style={{ backgroundColor: componenteCor, borderRadius: '0 0 16px 16px' }}>
                 {mostrarComponente === "button" && <Button />}

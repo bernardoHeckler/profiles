@@ -5,3 +5,20 @@
 button > img {
   height: 40px;
 }
+.btn-opcao img {
+  animation: spin3d 3s infinite linear;
+  transform-style: preserve-3d;
+}
+
+@keyframes spin3d { 
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.btn-opcao img:hover{
+  animation: none;
+}

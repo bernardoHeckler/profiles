@@ -1,5 +1,4 @@
 button{
-    background-color: #77b8f5;
     border: none;
     padding: 16px;
     text-transform: uppercase;
@@ -32,4 +31,8 @@ section{
 }
 .color-btn3{
     background-color: #4926a3;
+}
+
+.container-btns > section > button:hover{
+    opacity: .7;
 }

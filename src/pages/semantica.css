@@ -1,11 +1,31 @@
 .cor-fundo {
   background-color: #00000c;
   border: 2px solid rgb(251, 0, 255);
+  box-shadow: 0 0 15px rgb(251, 0, 255, 0.5);
+
   color: #e6e6ff;
   list-style: none;
   border-radius: 16px;
   width: 390px;
-  height: 515px;
+  height: 521px;
+  transition: 
+    border-color 0.5s ease-in-out 0.1s, 
+    box-shadow 0.5s ease-in-out;
+}
+
+.cor-fundo:hover {
+border: 2px solid rgb(0, 225, 255);
+box-shadow: 0 0 15px rgba(0, 225, 255, 0.5);
+
+/* Delay para o hover */
+transition-delay: 0.1s;
+}
+
+/* Animação quando o mouse sai */
+.cor-fundo:not(:hover) {
+transition: 
+  border-color 0.5s ease-in-out 0.3s, 
+  box-shadow 0.5s ease-in-out 0.3s;
 }
 
 a {
@@ -24,6 +44,10 @@ a {
   width: 100px;
   border-radius: 500px;
   border: 3px solid rgb(67, 255, 161);
+}
+
+.container > img:hover {
+  border: 3px solid rgb(9, 255, 0);
 }
 
 h1,
